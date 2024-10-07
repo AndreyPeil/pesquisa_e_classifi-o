@@ -3,6 +3,8 @@ from bs4 import BeautifulSoup
 
 jogadores_lista = []
 for i in range(1, 21):
+    print(f'buscando página {i}')
+    print("buscando jogadores...")
     if i == 1:
         url = "https://www.transfermarkt.com.br/campeonato-brasileiro-serie-a/torschuetzenliste/wettbewerb/BRA1/ajax/yw1/saison_id/0/detailpos//altersklasse/alle/plus/1"
     else:
