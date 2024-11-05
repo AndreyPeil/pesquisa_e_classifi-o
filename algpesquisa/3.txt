@@ -1,0 +1,5 @@
+a) A busca Fibonacci pode exigir menos comparações do que a busca por salto, pois utiliza a sequência de Fibonacci para determinar os índices, o que pode ser mais eficiente em determinadas situações.
+
+b) A busca por salto é mais adequada para listas grandes e ordenadas quando a busca binária não é aplicável. A busca Fibonacci, por sua vez, é vantajosa em listas ordenadas quando o objetivo é reduzir o número de comparações.
+
+c) Ambos os métodos necessitam que a lista esteja ordenada para funcionar corretamente. Em listas não ordenadas, nem a busca por salto nem a busca Fibonacci seriam eficazes.
